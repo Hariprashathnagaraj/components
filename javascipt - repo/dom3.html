@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dom3.css">
+    
+</head>
+<body>
+    <div class="card">
+        <div class="container" id="stopLight"></div>
+        <div class="container" id="readyLight"></div>
+        <div class="container" id="goLight"></div>
+      </div>
+    
+       <div class="card">
+        <button id="stopButton" onclick="changeColor('stop')">Stop</button>
+        <button id="readyButton" onclick="changeColor('ready')">Ready</button>
+        <button id="goButton" onclick="changeColor('go')">Go</button>
+      </div>
+   
+      <script>
+        function changeColor(target) {
+          var stopButton = document.getElementById("stopButton");
+          var readyButton = document.getElementById("readyButton");
+          var goButton = document.getElementById("goButton");
+    
+          var stopLight = document.getElementById("stopLight");
+          var readyLight = document.getElementById("readyLight");
+          var goLight = document.getElementById("goLight");
+    
+          stopButton.style.backgroundColor = "";
+          readyButton.style.backgroundColor = "";
+          goButton.style.backgroundColor = "";
+    
+          stopLight.style.backgroundColor = "black";
+          readyLight.style.backgroundColor = "black";
+          goLight.style.backgroundColor = "black";
+    
+          if (target === 'stop') {
+            stopButton.style.backgroundColor = "red";
+            stopLight.style.backgroundColor = "red";
+          } else if (target === 'ready') {
+            readyButton.style.backgroundColor = "yellow";
+            readyLight.style.backgroundColor = "yellow";
+          } else if (target === 'go') {
+            goButton.style.backgroundColor = "green";
+            goLight.style.backgroundColor = "green";
+          }
+        }
+      </script>
+</body>
+</html>

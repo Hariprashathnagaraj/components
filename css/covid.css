@@ -1,0 +1,37 @@
+.one{
+    text-align: end;
+    padding: 30px;
+}
+.box{
+    width: 25px;
+    height: 30px;
+}
+.green{
+    background-color: #3ebd3e;
+    height: 150px;
+    width: 100px;
+margin: auto;    text-align: center;
+}
+.red{
+    background-color: #e668a7;
+    height: 150px;
+    width: 100px;
+    margin: auto;        text-align: center;
+}
+.blue{
+    background-color: blueviolet;
+    height: 150px;
+    width: 100px;
+    text-align: center;
+    margin: auto;    
+}
+button{
+    margin-left: 50%;
+}
+.two{
+    background-color: #0967d219;
+;
+}
+.last{
+    background-color: #d12e3919;
+}

@@ -1,0 +1,13 @@
+h1{
+    color: rgb(87, 239, 50);
+}
+h2{
+    color:rgb(87, 239, 50)
+}
+label{
+    color:rgb(230, 236, 237);
+}
+.container{
+    border-bottom: 5px;
+    margin-top: 0px;
+}

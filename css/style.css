@@ -1,0 +1,15 @@
+.parentDiv{
+    column-count: 3;
+    column-gap: 50px;
+    /* column-rule-style:double;
+    column-rule-color: red;
+    column-rule-width: 10px; */
+    /* column-rule: 10px solid green;//short hand property */
+}
+h2{
+    column-span: all;
+} 
+h2::first-letter{
+    color:red;
+    font-size: 50px;
+}

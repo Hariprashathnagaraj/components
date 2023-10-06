@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ON/OFF Button Model</title>
+  <style>
+    body{
+        background: black;
+    }
+    #cat-image,
+    #bulb-off-image,
+    #bulb-on-image {
+      width: 200px;
+      height: auto;
+    }
+    #bulb-on-image {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>ON/OFF Button Model</h1>
+  <img id="bulb-off-image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-off-img.png" alt="Light Off Image">
+  <img id="bulb-on-image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-on-img.png" alt="Light On Image">
+  <img id="cat-image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/cat-img.png" alt="Cat Image">
+  <br>
+  <button id="on-button" onclick="toggleLight(true)">ON</button>
+  <button id="off-button" onclick="toggleLight(false)">OFF</button>
+
+  <script>
+    var catImage = document.getElementById("cat-image");
+    var bulbOffImage = document.getElementById("bulb-off-image");
+    var bulbOnImage = document.getElementById("bulb-on-image");
+    var onButton = document.getElementById("on-button");
+    var offButton = document.getElementById("off-button");
+
+    function toggleLight(isOn) {
+      if (isOn) {
+        bulbOffImage.style.display = "none";
+        bulbOnImage.style.display = "block";
+        catImage.src = "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/cat-img.png";
+        onButton.disabled = true;
+        offButton.disabled = false;
+      } else {
+        bulbOffImage.style.display = "block";
+        bulbOnImage.style.display = "none";
+        catImage.src = "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/cat-eyes-img.png";
+        onButton.disabled = false;
+        offButton.disabled = true;
+      }
+    }
+  </script>
+</body>
+</html>

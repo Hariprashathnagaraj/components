@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pay Slip</title>
+  <link rel="stylesheet" type="text/css" href="./ps.css">
+</head>
+<body>
+  <div class="pay-slip">
+    <h1>Pay Slip</h1>
+    <div class="input-section">
+      <label for="employee-name">Employee Name:</label>
+      <input type="text" placeholder="Name" id="employee-name" required>
+    </div>
+    <div class="input-section">
+      <label for="basic-salary">Basic Salary:</label>
+      <input type="number" placeholder="ex:10,000" id="basic-salary" required>
+    </div>
+    <div class="input-section">
+      <label for="allowance">Allowance:</label>
+      <input type="number" placeholder="ex:5,000" id="allowance" required>
+    </div>
+    <div class="input-section">
+      <label for="deduction">Deduction:</label>
+      <input type="number" placeholder="ex:2,500" id="deduction" required>
+    </div>
+    <button onclick="calculatePaySlip()">Generate Pay Slip</button>
+    <div class="pay-slip-result" id="pay-slip-result">
+      <!-- The pay slip details will be displayed here -->
+    </div>
+  </div>
+  <script src="ps.js"></script>
+</body>
+</html>

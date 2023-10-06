@@ -1,0 +1,97 @@
+.logo{
+    font-size:30px;
+    font-weight: 900;
+    font-style: italic;
+    border:solid white 5px;
+    border-radius:40%;
+    padding:1px;
+    color:gold;
+}
+.nav-item a{
+    font-size:20px;
+    font-weight: 500;
+    font-style: italic;
+    color:rgb(231, 181, 54);
+}
+.home-page{
+    background-image:linear-gradient(to right, #f3b04d ,rgb(230, 12, 219));
+    height:100vh;
+    padding:90px 105px;
+}
+.home-content h1{
+    font-size:90px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    animation:forwards;
+}
+.home-content h3{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top:10px;
+    text-decoration:underline;
+}
+.home-content p{
+    font-size:30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top:10px;
+    text-align: justify;
+    line-height:50px;
+}
+#first-button{
+    background:purple;
+    border:yellow solid 3px;
+    letter-spacing: 1px;
+    padding:5px;
+    border-radius: 9px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    position: static;
+}
+#second-button{
+    background:purple;
+    border:yellow solid 3px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    padding:5px;
+    border-radius: 9px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    position: static;
+}
+.home-info a{
+    display:inline-flex;
+    width:40px;
+    height:40px;
+    font-size:45px;
+    color:blueviolet;
+    margin-top: 60px;
+}
+.btn-box a:hover{
+    color:white;
+    transition: 0.5s;
+}
+.card{
+    margin-top:180px;
+    background-image:linear-gradient(to right, white,rgb(69, 218, 69));
+    border-collapse: collapse;
+    box-shadow: inset;
+}
+.card-bg{
+    background:linear-gradient(to right, rgb(228, 223, 223),rgb(69, 218, 69));
+    height:100vh;
+}
+.card-title{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkblue;
+    font-weight: 600;
+    font-style: italic;
+}
+.card-text{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:gray;
+    font-weight: 900;
+    font-style: italic;
+}
+

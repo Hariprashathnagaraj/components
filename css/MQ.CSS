@@ -1,0 +1,38 @@
+body{
+    background-color: darkorange;
+}
+    @media all and (max-width: 450px){
+        .one{ 
+            background-color: red;
+            color: aliceblue;
+            /* background-image: url(https://tse1.mm.bing.net/th?id=OIP.a0uvDo9M_SRVZbiOTQzGXgHaE8&pid=Api&P=0&h=180); */
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    @media all and (min-width:450px) and (max-width: 750px)
+    {
+    .two{
+        background-color: blueviolet;
+        color: aliceblue;
+        /* background-image: url(https://tse3.mm.bing.net/th?id=OIP.hUaCDuWAqM2zqcHr0RpNqgHaE8&pid=Api&P=0&h=180); */
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    }
+    @media all and (min-width:750px) and (max-width: 1200px)
+    {
+    .three{
+        background-color: rgb(69, 194, 222);
+        color: aliceblue;
+        /* background-image: URL(https://tse1.mm.bing.net/th?id=OIP.sEelylJeqqHeXoHs05fATwHaEo&pid=Api&P=0&h=180); */
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    }
+     
+
+   
+    

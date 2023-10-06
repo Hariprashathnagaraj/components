@@ -1,0 +1,26 @@
+/* body{
+    background-image:url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/hotelbg.png);
+    background-size:30%;
+    background-repeat:no-repeat; */
+   
+/* } */
+.box{
+   background-color:#000000e6 ;
+    justify-content: center;
+     /* justify-content:center; */
+    margin-left: 20px;
+    color: white;
+    border-radius: 10px;
+    font-family: roboto;
+ margin-top:-200px;
+}
+p{
+    font-size: 15px;
+}
+.ara{
+    /* margin-left:90px; */
+    margin-bottom: 40px;
+    padding: 2px;
+    width: 100px;
+
+}

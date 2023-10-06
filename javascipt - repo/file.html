@@ -1,0 +1,103 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  
+
+     <script>
+//       let a={
+//         name:"Hari",
+//         age:28,
+//         gender:"male",
+//   run:function()
+//   {
+//   console.log("Mad Racer");
+// },
+// };
+// a.run();
+
+// let a={
+//       name:"Hari",
+//       age:28,
+// habits:["playing chess","singing"],
+// };
+// console.log(a.habits);
+let person = {
+  firstName: "Rahul",
+  lastName: "Attuluri",
+  age: 28,
+  habits: ["Playing Chess", "Singing", "Dancing"],
+  car: {
+    name: "Audi",
+    model: "A6",
+    color: "White",
+  },
+};
+console.log(person.car.name,person.car.model);
+
+     </script>
+  
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+</head>
+<body>
+  <h1>Weather App</h1>
+  <div>
+    <label for="cityInput">Enter City:</label>
+    <input type="text" id="cityInput" placeholder="Enter city name">
+    <button onclick="getWeather()">Get Weather</button>
+  </div>
+  <div id="weatherInfo"></div>
+
+  <script>
+    async function getWeather() {
+      const apiKey = 'YOUR_API_KEY'; // Replace with your OpenWeatherMap API key
+      const city = document.getElementById('cityInput').value;
+
+      try {
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`);
+        const data = await response.json();
+
+        if (response.ok) {
+          displayWeatherData(data);
+        } else {
+          displayError(data.message);
+        }
+      } catch (error) {
+        displayError('Error fetching weather data. Please try again later.');
+      }
+    }
+
+    function displayWeatherData(weatherData) {
+      const weatherInfoDiv = document.getElementById('weatherInfo');
+      const temperature = Math.round(weatherData.main.temp - 273.15); // Convert temperature from Kelvin to Celsius
+      const weatherDescription = weatherData.weather[0].description;
+      const cityName = weatherData.name;
+
+      const weatherInfoHTML = `
+        <h2>Weather in ${cityName}</h2>
+        <p>Temperature: ${temperature}°C</p>
+        <p>Weather: ${weatherDescription}</p>
+      `;
+
+      weatherInfoDiv.innerHTML = weatherInfoHTML;
+    }
+
+    function displayError(errorMessage) {
+      const weatherInfoDiv = document.getElementById('weatherInfo');
+      weatherInfoDiv.innerHTML = `<p style="color: red;">${errorMessage}</p>`;
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length coverter</title>
+    <link rel="stylesheet" href="./conv.css">
+</head>
+<body>
+
+    <div id="wrapper">
+<center><h2>cm to inches</h2></center>
+<div class="input-div">
+<center><input type="text" id="input" placeholder="cm to inches"></center>
+</div>
+<div><center><button onclick="convert()">CLICK</button></center></div>
+    </div>
+<center><h1 id="result">
+
+</h1></center>
+
+<script>
+
+    function convert(){
+        let cmVal = Number (document.getElementById("input").value)
+let inchVal = cmVal*9/5 + 32
+let result = document.getElementById("result")
+result.innerHTML = inchVal+"%"
+// .toFixed(3)+"inches"
+    }
+
+
+    </script>
+</body>
+</html>

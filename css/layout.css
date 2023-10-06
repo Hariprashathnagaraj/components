@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(177, 173, 173);
+}
+.head{
+text-align: center;
+}
+ul{
+    background-color: red;
+    display: flex;
+}
+ul li{
+    display: inline-block;
+margin-left: 120px;
+color: aliceblue;}
+
+.asides{
+    background-color: aqua;
+    height: 15vh;
+    width: 25vw;
+    padding-top: 250px;   
+}
+.sub{
+    background-color: red;
+    width: 125px;
+}
+.hline
+{
+    margin-left: 54%;
+    margin-top: -28%;
+    column-span: all;
+}
+p{
+    column-count: 4;
+    margin-left: 28%;
+column-gap: 8px;
+}
+.para2{
+    column-count: 1;
+    
+}

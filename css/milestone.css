@@ -1,0 +1,113 @@
+body{
+    background-image: url("https://th.bing.com/th/id/OIP.P89K6bZpHefjd_XjrWqWzQHaNK?pid=ImgDet&w=188&h=333&c=7&dpr=1.3");
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    box-sizing: 0;
+}
+nav{
+        width: 100%;
+        position: sticky;
+        top: 0px ;
+        left: 0;
+        box-shadow: 0px 5px 8px rgb(57, 56, 56);
+        z-index: 10;
+}
+/* .navbar{
+    position: sticky;
+    top:2px;
+    z-index:1;
+} */
+
+.nav-link:hover{
+    transform: scale(1.3);
+    transition: 2s;
+    background-color: rgb(244, 241, 241);
+    border-radius: 20px;
+    text-shadow: 2px 2px 2px black;
+}
+.name{
+    margin-left: 115px;
+}
+.con{
+    text-decoration: none;
+}
+.carousel-inneroneone{
+    height: 240vh;
+    background-size: cover;
+}
+.carousel-inneronetwo{
+    height: 150vh;
+}
+.carousel .carousel-indicators button{
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+.card-group:hover{
+    transform: skewX(180deg);
+    transition: 2s;
+}
+h5{
+    margin-left: 205px;
+}
+.contact:hover{
+   transform: scale(0.5);
+   transition: 5s;
+}
+.home{
+    height: 50vh;
+    margin-top: 5%;
+    margin-right: 40px;
+}
+#skills{
+    margin-top: 85px;
+}
+.about::first-letter{
+    color: red;
+}
+#skills::first-letter{
+    color: red;
+}
+.cErtificates::first-letter{
+    color: red;
+}
+.contact::first-letter{
+    color: red;
+}
+.para::first-letter{
+    text-transform: capitalize;
+    font-size:xx-large;
+    color: red;
+}
+.aboutme{
+    margin-top: -115px;
+    margin-left: 20%;
+
+}
+.tw:hover{
+    /* background-color: red; */
+    /* border-radius: 50%; */
+    transform: scale(1.5);
+    transition: 1s;
+    
+}
+
+.in:hover{
+    /* background-color: red;
+    border-radius: 50%; */
+    transform: scale(1.5);
+    transition: 1s;
+    
+}
+.fb:hover{
+    /* background-color: red;
+    border-radius: 50%; */
+    transform: scale(1.5);
+    transition: 1s;
+}

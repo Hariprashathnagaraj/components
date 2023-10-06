@@ -1,0 +1,21 @@
+.image1{
+    height:200px;
+    width:300px;
+   margin-top:80px;
+    
+}
+.back{
+    height: 900px;
+    width:100%;
+}
+span{
+    color:mediumblue;
+}
+.tex{
+padding-top: 100px;
+
+}
+.bor{
+    border:3px solid blue ;
+    margin-top:5px;
+}

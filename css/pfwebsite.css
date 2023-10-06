@@ -1,0 +1,24 @@
+.main{
+    height:1500px;
+    width: 100%;
+    background-color: #323f4b;
+}
+.image1{
+    height: 250px;
+    width: 250px;
+}
+.but{
+    width:50px;
+}
+.grey{
+    background-color: #3e4c59;
+    border-radius: 20px;
+  
+}
+.tcolor{
+    color:darkgrey
+
+}
+.card-img-top{
+     object-fit:contain;
+}

@@ -1,0 +1,39 @@
+body{
+
+
+}
+*{
+    color: aqua;
+}
+
+@media screen and (max-width: 450px){
+    .vk{ 
+        /* background-color: red;
+        color: aliceblue; */
+        background-image: url('https://tse4.explicit.bing.net/th?id=OIP.FpVCEJu-14PlB2e0_W19LwHaE8&pid=Api&P=0&h=180');
+ background-repeat: no-repeat;
+ background-size: cover;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .msd{ 
+        /* background-color: red;
+        color: aliceblue; */
+        background-image: url('https://tse4.explicit.bing.net/th?id=OIP.FpVCEJu-14PlB2e0_W19LwHaE8&pid=Api&P=0&h=180');
+ background-repeat: no-repeat;
+ background-size: cover;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .hp{ 
+        /* background-color: red;
+        color: aliceblue; */
+        background-image: url('https://tse2.mm.bing.net/th?id=OIP.gPzWmgBF1EtfapfQpquA8wHaD4&pid=Api&P=0&h=180');
+ background-repeat: no-repeat;
+ background-size: cover;
+    }
+}
+
+

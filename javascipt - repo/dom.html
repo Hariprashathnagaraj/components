@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM paragraph styles</title>
+</head>
+<body>
+    <p id ='text'>JavaScript Exercises - KGMicrocollege</p>
+ <div>
+<button id="jsstyle" onclick="js_style()">Style</button>
+ </div>
+
+    <script> 
+    function js_style() {
+      let paragraph = document.getElementById('text');
+      paragraph.style.color = 'violet';
+      paragraph.style.fontWeight = 'bold';
+      paragraph.style.fontFamily = 'san-serif';
+      paragraph.style.textAlign = 'center';
+    }
+    </script>
+</body>
+</html>

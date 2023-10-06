@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="./guna.css"> -->
+</head>
+<body>
+  <h1>Js is Easy Language</h1>
+
+
+
+
+<script>
+
+  const person={
+    name:"Hari",
+    place:"chennai",
+    greetUser(){
+
+      return `Heloo,My name is ${this.name} and im coming from ${this.place} ` ;
+
+    },
+  };
+// const personOne = person.greetUser();
+// console.log(personOne);
+
+// person.name="Trisha";
+// person.place="London";
+// const personOne = person.greetUser();
+// console.log(personOne);
+
+// document.write(personOne);
+// document.body.innerHTML=`<h1>${personOne}</h2>`; 
+  const nameInput = prompt("what is ur name");
+  const placeInput = prompt("where are you from");
+
+  person.name=nameInput;
+  person.place=placeInput;
+
+  document.write(person.greetUser());
+
+
+</script>
+</body>
+</html>

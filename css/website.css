@@ -1,0 +1,65 @@
+.main{
+    position: sticky;
+    top: 1px;
+    z-index: 5;
+}
+.bg{
+    background-image: url("https://wallpaperset.com/w/full/0/7/2/313022.jpg");
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+a:hover{
+    /* color: rgb(15, 15, 14); */
+    /* background-color: rgb(132, 9, 9); */
+    transform: scale(1.2);
+    transition: transform 0.6s;
+}
+.nav-link a:hover{
+    color: blue;
+}
+a{
+margin-right: 50px;
+
+}
+/* .arrow{
+    height: 5vh;
+    width:15px;
+    background-color: rgb(44, 111, 170);
+}  */
+/* .pic1{
+    opacity: -1;
+} */
+.gd{
+    color: aliceblue;
+    font-weight: bolder;
+}
+.gd::first-letter{
+    color: red;
+}
+
+.box{
+    background-color: black;
+    color: aliceblue;
+}
+.two{
+    /* position:; */
+    background-color: black;
+}
+.contact{
+
+    margin-top: 55px;
+}
+.main2{
+    background-color: blue;
+}
+.certificate{
+    margin-top: 25px;
+}
+.contact{
+    margin-left: 50px;
+}
+#cErtificates{
+    margin-top: 50px;
+}

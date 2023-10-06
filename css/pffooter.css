@@ -1,0 +1,26 @@
+.ab{
+    color:  #001c32
+  
+  #0d2436
+  
+  #5a7184
+  }
+  .main{
+  height: 600px;
+  width:100%;
+  background-color: #001c32;
+  }
+  h2{
+  color:#cced00;
+  }
+  h6{
+  color:#9aa5b1;
+  }
+  img{
+    width: 100px;
+    height: 100px;
+  }
+  .foot{
+    height: 50px;
+    background-color: #0d2436;
+  }

@@ -1,0 +1,28 @@
+.one{
+    width: 56.5%;
+}
+.main{
+    display: flex;
+}
+.pic3{
+    margin-left: 35px;
+}
+.pic2{
+    margin-left: 35px;
+}
+.pic1{
+    margin-left: 15px;
+}
+
+.main1{
+    display: flex;
+}
+.box1{
+    margin-left: 15px;
+}
+.box2{
+    margin-left: 35px;
+}
+.box3{
+    margin-left: 35px;
+}

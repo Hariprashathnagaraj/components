@@ -1,0 +1,19 @@
+.main {
+    margin: 0 auto;
+    color: #183b56;
+}
+
+img {
+    height: 70px;
+    width: 70px;
+    margin-left: 100px;
+    padding: 15px;
+}
+
+.sub {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.sub.shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

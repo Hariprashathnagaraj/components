@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(62, 25, 61);
+    background-image: linear-gradient(to right,rgb(236, 91, 91),rgb(71, 71, 98 ));
+    opacity: 0.9;
+
+}
+.one{
+    margin-left:20%;
+    margin-top :105px;
+
+}
+.two{
+    background-color: aliceblue;
+    height: 78vh;
+    width: 30vw;
+    float: right;
+    margin-top: -35%;
+    margin-right: 25%;
+    box-shadow: 4px 4px 3px 6px rgb(8, 8, 8);
+    /* transform:rotate(-120deg); */
+    transition:2s;
+    position: relative;
+    translate:scalex(50);
+
+}
+.gold
+{
+color: gold;
+margin-top: 8px;
+word-spacing: 3px;
+}
+.dollar{
+    margin-left: 75%;
+    margin-top: -19px;
+}
+.name{
+    margin-left: 15%;
+}
+.type{
+    margin-left: 15%;
+}
+.cir{
+    margin-left: 150px;
+}
+.sze{
+    margin-left: 60px;
+}
+.btn{
+    border-radius: 50px;
+    margin-left: 35%;
+    border: none;
+}
+.btn1{
+    border-radius: 50px;
+    border: none;
+}
+img{
+    position: relative;
+    top: 25px;
+    box-shadow: 5px 5px 5px black;
+    z-index: -5;
+}
+.btn2{
+    border-radius: 50px;
+
+}
+.btn3{
+    border-radius: 50px;
+    border: none;
+
+}
+.btn4{
+    border: none;
+    border-radius: 5px;
+    margin-left: 38%;
+    margin-top: 10px;
+}
+a{
+    margin-left: 39%;
+}
+.pink{
+    color: pink;
+}
+.red{
+    color: rgb(216, 11, 45);
+}
+.yellow{
+    color: rgb(236, 232, 27);
+}
+.green{
+    color: rgb(94, 209, 60);
+}
+.cr{
+margin-left: 55px;
+}

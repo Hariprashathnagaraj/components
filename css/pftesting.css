@@ -1,0 +1,35 @@
+*{
+    margin:0 auto;
+}
+
+.main{
+    background-color:#1f2933 ;
+    height: 160vh;
+    width: 100%;
+}
+.first{
+  background-color:#323f4b;
+  height: 70vh;
+  width: 60%;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+   
+}
+h2{
+color:#cced00;
+}
+
+img{
+    height:190px;
+    width:170px;
+    border-radius: 50%;
+}
+p{
+    color: #9aa5b1;
+    padding: 10px;
+    margin-top:30px;
+}
+button{
+    margin-top: 300px;
+}
